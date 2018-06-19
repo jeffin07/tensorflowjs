@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta charset="utf-8">
+	<script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@0.11.2"> </script>
+</head>
+<body>
+<div id="output"></div>
+</body>
+<script >
+	async function loader(){
+	const a=tf.tensor2D([0,1,0,1,0,1],[6,1]);
+	const b=tf.tensor2D([0,0,1,1,0,0],[6,1]);
+	const c=tf.tensor2D([0,0,0,0,1,1],[6,1]);
+	const model=tf.sequential();
+	model.add(tf.layers.dense());
+}
+</script>
+</html>
